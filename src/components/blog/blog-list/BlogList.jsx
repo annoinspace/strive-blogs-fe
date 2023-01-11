@@ -32,7 +32,7 @@ const BlogList = () => {
               <BlogItem
                 {...blog}
                 blog={blog}
-                key={blog.id}
+                key={blog._id}
                 id={blog._id}
                 title={blog.title}
                 name={blog.author}
